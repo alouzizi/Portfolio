@@ -11,12 +11,12 @@ export default function Hero() {
 					Nice to meet you! 👋<br />
 
 					<span className=" underline underline-offset-8 decoration-green-500 ">
-						I'm Ali Louzizi.
+						I&apos;m Ali Louzizi.
 					</span>
 				</h1>
 
 				<p className="md:w-96 text-lg text-gray-300">
-					Based in Morocco / Meknes, I'm a Full Stack Developer passionate about building a modern
+					Based in Morocco / Meknes, I&apos;m a Full Stack Developer passionate about building a modern
 					web solutions and applications.
 				</p>
 
