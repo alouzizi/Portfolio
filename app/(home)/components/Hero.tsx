@@ -1,5 +1,6 @@
 import { MovingBorderBtn } from "@/components/ui/moving-border";
 import Link from "next/link";
+import Title from "./Title";
 
 export default function Hero() {
 	return (
@@ -21,11 +22,12 @@ export default function Hero() {
 				</p>
 
 				<Link className="inline-block group" href={"mailto:alouzizi860@gmail.com"}>
-					<div>
+					<Title text="Contact me 📬" />
+					{/* <div>
 						<h1 className="text-3xl font-bold group-hover:text-green-400">Contact me 📬</h1>
 						<div className="w-40 h-2 bg-green-500 rounded-full"></div>
 						<div className="w-40 h-2 bg-indigo-500 rounded-full translate-x-2"></div>
-					</div>
+					</div> */}
 				</Link>
 			</div>
 			<div className="relative">
