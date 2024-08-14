@@ -13,28 +13,28 @@ export default function Projets() {
 			tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
 			link: "https://saas-landing-page-ui.vercel.app/",
 			cover: "/projects/project-2.png",
-			// bBackground: "bg-gradient-to-r from-green-400 to-green-600",
+			bBackground: "bg-gradient-to-r from-gray-800 to-black",
 		},
 		{
 			title: "Portfolio",
 			tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
 			link: "https://myportfolio-alouzizis-projects.vercel.app/",
 			cover: "/projects/project-2.png",
-			bBackground: "bg-gradient-to-r from-green-400 to-green-600",
+			bBackground: "bg-gradient-to-r from-black to-green-400",
 		},
 		{
 			title: "Saas landing page",
 			tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
 			link: "https://saas-landing-page-ui.vercel.app/",
-			cover: "/projects/project-2.png",
-			bBackground: "bg-gradient-to-r from-indigo-400 to-indigo-600",
+			cover: "/projects/project-1.png",
+			bBackground: "bg-gradient-to-r from-indigo-400 to-black",
 		},
 		{
 			title: "Portfolio",
 			tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
 			link: "https://myportfolio-alouzizis-projects.vercel.app/",
 			cover: "/projects/project-2.png",
-			// bBackground: "bg-gradient-to-r from-yellow-400 to-yellow-600",
+			bBackground: "bg-gradient-to-r from-black to-gray-800",
 		}
 	];
 
@@ -42,14 +42,14 @@ export default function Projets() {
 		<div className="py-10 p-5 sm:p-0">
 
 			<Title
-				text="Projects"
+				text="Projects 🎨"
 				sx="flex flex-col items-center justify-center rotate-6"
 			/>
 			<div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
 				{
 					projects.map((project, index) => {
 						return <Link key={index} href={project.link}>
-							<div className={cn("p-5 rounded-md", project.bBackground)}>
+							<div className={cn("p-1 rounded-md", project.bBackground)}>
 								<DirectionAwareHover
 									imageUrl={project.cover}
 									className="w-full space-y-5 cursor-pointer"
