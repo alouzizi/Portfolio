@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Skills from "./components/skills";
+import Projets from "./components/Projects";
 
 export default function Home() {
 
@@ -18,7 +19,8 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="max-w-7xl mx-auto p-5 mt-20">
-				<Skills/>
+				<Skills />
+				<Projets />
 			</div>
 		</div>
 	);
