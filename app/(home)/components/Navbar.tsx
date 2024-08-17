@@ -6,7 +6,7 @@ export default function Navbar({ sx }: { sx?: string }) {
 
 	const socials = [
 		{
-			Link: "https://github.com/alouzizi",
+			Link: "https://www.linkedin.com/in/alilouzizi/",
 			Lable: "LinkedIn",
 			Icon: SiLinkedin,
 		},
@@ -16,7 +16,7 @@ export default function Navbar({ sx }: { sx?: string }) {
 			Icon: SiGithub,
 		},
 		{
-			Link: "https://github.com/alouzizi",
+			Link: "https://x.com/alilouzizi",
 			Lable: "X",
 			Icon: SiX,
 		},
@@ -28,7 +28,7 @@ export default function Navbar({ sx }: { sx?: string }) {
 			<div className="flex items-center gap-5">
 				{socials.map((social, index) => {
 					const Icon = social.Icon;
-					return (<Link href={social.Link} key={index} aria-label={social.Lable}>
+					return (<Link href={social.Link} key={index} aria-label={social.Lable} target="_blank">
 						<Icon className="w-5 h-5 hover:scale-125  transition-all" />
 					</Link>)
 				})}

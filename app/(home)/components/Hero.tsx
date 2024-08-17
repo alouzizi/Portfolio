@@ -47,7 +47,7 @@ export default function Hero() {
 
 				<div className="absolute bottom-5 left-0 sm:bottom-14 sm:-left-10">
 					<MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
-						<p>💼 Available for Work</p>
+						<a href="./assets/ali_louzizi_cv.pdf" download='ali_louzizi_cv'>💼 Available for Work</a>
 					</MovingBorderBtn>
 				</div>
 			</div>

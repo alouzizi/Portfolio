@@ -3,7 +3,7 @@ import Link from "next/link";
 import Title from "./Title";
 import { cn } from "@/lib/utils";
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
-import { SiNextdotjs, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiSupabase, SiTailwindcss, SiTypescript } from "react-icons/si";
 
 export default function Projets() {
 
@@ -16,10 +16,10 @@ export default function Projets() {
 			bBackground: "bg-gradient-to-r from-gray-800 to-black",
 		},
 		{
-			title: "Portfolio",
-			tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
+			title: "Customer relationship management",
+			tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiSupabase],
 			link: "https://myportfolio-alouzizis-projects.vercel.app/",
-			cover: "/projects/project-2.png",
+			cover: "/projects/project-5.png",
 			bBackground: "bg-gradient-to-r from-black to-green-400",
 		},
 		{
