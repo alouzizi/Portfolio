@@ -17,7 +17,7 @@ export default function Projets() {
 		},
 		{
 			title: "Customer relationship management",
-			tech: [SiNextdotjs, SiTailwindcss, SiTypescript, SiSupabase],
+			tech: [SiNextdotjs, SiNestjs, SiTailwindcss, SiTypescript, SiSupabase],
 			link: "",
 			cover: "/projects/project-3.webp",
 			bBackground: "bg-gradient-to-r from-black to-green-400",
@@ -30,10 +30,10 @@ export default function Projets() {
 			bBackground: "bg-gradient-to-r from-indigo-400 to-black",
 		},
 		{
-			title: "Portfolio",
-			tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
-			link: "https://myportfolio-alouzizis-projects.vercel.app/",
-			cover: "/projects/project-2.png",
+			title: "HyperTube",
+			tech: [SiNextdotjs, SiNestjs, SiTailwindcss, SiTypescript],
+			link: "",
+			cover: "/projects/project-5.png",
 			bBackground: "bg-gradient-to-r from-black to-gray-800",
 		}
 	];
